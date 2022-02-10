@@ -10,3 +10,8 @@ This session is to practice cross validation for fitting statistical models, suc
 - Repeated cross-validation
 - The whole process of model assessment for its prediction (apparent validation, internal validation, external validation)
 - Non-random split
+
+### Session 7
+This session is about regularising regression models such as Ridge and LASSO model using `glmnet` package.
+- Ridge
+- LASSO
