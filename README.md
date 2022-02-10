@@ -1,4 +1,4 @@
-# prediction_modelling_in_r
+# Prediction_Modelling_in_R
 All contents in this repository is from Prediction Modelling module of ASH&HI at King's College London
 
 ## Contents
