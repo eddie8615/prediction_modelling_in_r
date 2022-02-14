@@ -31,6 +31,12 @@ Session 4 covers calculating covariance matrix from scratch
 - Inverse matrix
 - Comparing simple linear regression with polynomial regression using ANOVA (Analysis of Variance)
 
+### Session 5
+Session 5 covers the final part of generalised linear models. 
+- Exploring multi-collinearity of variables using variance inflation factors in BOSTON dataset
+- Modelling GLM with a simple dataset consisting of 100 variables with 100 observation which violates the statistical analysis golden rule: each variable have at least 10 entries
+- Plotting a histogram of the coefficients of 100 variables in a GLM which shows most of them are around zero.
+
 ### Session 6
 This session is to practice cross validation for fitting statistical models, such as simple and multiple regression models using various types of data
 
