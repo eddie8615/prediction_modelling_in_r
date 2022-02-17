@@ -72,7 +72,7 @@ Addtion to Cox model, Kaplan-Meier model, hazard function and survival function 
 - LASSO Cox
 
 ### Session 17
-Session 17 covers Random Forest and Decision tree in classification and regression problems. The used dataset for regression is Boston housing data and for classification is 'Stage C Prostate Cancer' dataset. [Check Here] (https://vincentarelbundock.github.io/Rdatasets/doc/rpart/stagec.html)
+Session 17 covers Random Forest and Decision tree in classification and regression problems. The used dataset for regression is Boston housing data and for classification is 'Stage C Prostate Cancer' dataset. [Check Here](https://vincentarelbundock.github.io/Rdatasets/doc/rpart/stagec.html)
 
 - Decision tree
 - Regression forest
