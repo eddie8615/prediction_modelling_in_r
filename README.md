@@ -70,3 +70,11 @@ Addtion to Cox model, Kaplan-Meier model, hazard function and survival function 
 - Concordance index (c-statistics), Calibration
 - log rank -> to test the difference of statistical properties
 - LASSO Cox
+
+### Session 17
+Session 17 covers Random Forest and Decision tree in classification and regression problems. The used dataset for regression is Boston housing data and for classification is 'Stage C Prostate Cancer' dataset. [Check Here] (https://vincentarelbundock.github.io/Rdatasets/doc/rpart/stagec.html)
+
+- Decision tree
+- Regression forest
+- Random forest
+- Pruning to improve prediction performance
