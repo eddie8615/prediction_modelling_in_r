@@ -49,3 +49,24 @@ This session is to practice cross validation for fitting statistical models, suc
 This session is about regularising regression models such as Ridge and LASSO model using `glmnet` package.
 - Ridge
 - LASSO
+
+### Session 11
+Session 11 covers regularised logistic regression and its fitting mechanism such as cross-validation for tuning lambda. Used data was predicting autism using stimuli of particular brain regions and Altzheimer dataset from AppliedPredictiveModeling package\
+This session also covers two popular R packages for modelling regularised logistic regression such as `caret` and `glmnet`.
+- LASSO logistic regression - Parameter selection
+- Small portion of data analysis using logistic regression to look odds ratios
+- To evaluate the model performance, `confusionMatrix` was used that shows 'Sensitvity', 'Specificity' and 'Accuracy'
+- Used `roc` to measure discrimination
+- `glmnet` vs `caret`
+
+### Session 16
+Session 16 covers Cox regression that enable us to measure "time-till-event' with adding risk factors. The event can be anything not just negative event such as:
+- Recovery period
+- Survival from cancer or any disease since diagnosis etc.
+Addtion to Cox model, Kaplan-Meier model, hazard function and survival function are also included to understand the concept of Cox model. DementiaData was used and various methods of assessing the model performance were also performed
+- Cox regression
+- Survival function
+- Hazard function
+- Concordance index (c-statistics), Calibration
+- log rank -> to test the difference of statistical properties
+- LASSO Cox
