@@ -78,3 +78,10 @@ Session 17 covers Random Forest and Decision tree in classification and regressi
 - Regression forest
 - Random forest
 - Pruning to improve prediction performance
+
+### Session 19
+Session 19 covers Support Vector Machine (SVM). The aim of this session is to model a SVM to predict whether individuals experienced a coronary heat disease (CHD) or not using South African heart Disease dataset. The dataset contains 8 predictors. This session also compared the predictive performance between linear kernel and RBF kernel with fine tuning.
+
+- Support Vector Machine
+- Linear kernel
+- RBF kernel
