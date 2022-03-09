@@ -49,4 +49,17 @@ citation("pmsampsize")
 # The maximum number of params that used for analysis of both dataset was 13 suggested by pmsampsize
 pmsampsize(type="b", rsquared=0.2, parameters = 13, shrinkage = 0.9, prevalence = prevalence, seed=123)
 
-train <- data[data$trial == "Tirilazad US"]
+train <- data[data$trial == "Tirilazad US",]
+train <- train[,-1]
+
+test <- data[data$trial != "Tirilazad US",]
+test <- test[,-1]
+
+set.seed(123)
+model <- glm(d.unfav ~ ., data = train,  family="binomial")
+summary(model)
+library(pROC)
+
+confint(model)
+# confusionMatrix(as.factor(y_pred), as.factor(y_test), positive="1")
+
