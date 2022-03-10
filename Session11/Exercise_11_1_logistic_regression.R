@@ -61,7 +61,7 @@ plot(age,ad,xlab="Age",ylab="Developed Altzheimer", )
  
 # Import the data
 # Please note that this is not the original data file. 
- autism <- read.csv("autism_summerschool.csv")
+ autism <- read.csv("/home/changhyun/King's College London/prediction_modelling/prediction_modelling_in_r/Session11/autism_summerschool.csv")
  View(autism)
 # Group 1 = high risk group Group 0 = control group
  summary(autism)
