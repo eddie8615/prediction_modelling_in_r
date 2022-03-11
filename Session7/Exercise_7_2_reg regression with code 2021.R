@@ -6,7 +6,7 @@
 # or at least performs better than a multiple linear regression
 
 library(glmnet)
-library(caret)
+# library(caret)
 
 #### Simulation ####
 # Simulate a data set with 90 x and 1 y variable. 

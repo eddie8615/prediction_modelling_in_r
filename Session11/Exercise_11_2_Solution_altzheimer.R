@@ -62,7 +62,7 @@ summary(diagnosis)
   x<-predictors2
   y<-as.numeric(diagnosis)
   y<-as.factor(y)
-  as.numeric(y) # to see how the categories are coded (1 and 2)
+  y <- as.numeric(y) - 1 # to see how the categories are coded (1 and 2)
   #  1= Ad and 2 = control,
   # Comment: Glmnet does not like labels like AD and control for predictions
 
@@ -108,7 +108,7 @@ y_pred<-as.numeric(predict(cv.glmmod,type="class",newx=x))
 
 # Get discrimination estimates
 # Positive = 2 means that factor level=2 is clinical outcome
-confusionMatrix(as.factor(y_pred), y, positive = "1" )
+confusionMatrix(as.factor(y_pred), as.factor(y), positive = "1" )
 
 # Get the AUC value
 roc_obj.train <- roc(y, (y_prob))  # Important correction from y_pred to y_prob!  22/2/21. this 

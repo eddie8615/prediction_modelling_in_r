@@ -49,11 +49,11 @@ citation("pmsampsize")
 # The maximum number of params that used for analysis of both dataset was 13 suggested by pmsampsize
 pmsampsize(type="b", rsquared=0.2, parameters = 13, shrinkage = 0.9, prevalence = prevalence, seed=123)
 
-train <- data[data$trial != "Tirilazad US",]
+train <- data[data$trial == "Tirilazad US",]
 train <- train[,-1]
 train$d.unfav <- factor(train$d.unfav)
 
-test <- data[data$trial == "Tirilazad US",]
+test <- data[data$trial != "Tirilazad US",]
 test <- test[,-1]
 test$d.unfav <- factor(test$d.unfav)
 

@@ -324,7 +324,7 @@ set.seed(123)
  summary(glmnet.obj)
 
  
- #glmnet.obj$results
+ glmnet.obj$results
  
  
  get_best_result = function(caret_fit) {
