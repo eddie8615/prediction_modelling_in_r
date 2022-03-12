@@ -49,6 +49,7 @@ citation("pmsampsize")
 # The maximum number of params that used for analysis of both dataset was 13 suggested by pmsampsize
 pmsampsize(type="b", rsquared=0.2, parameters = 13, shrinkage = 0.9, prevalence = prevalence, seed=123)
 
+# split data into training and testing
 train <- data[data$trial == "Tirilazad US",]
 train <- train[,-1]
 train$d.unfav <- factor(train$d.unfav)
@@ -122,5 +123,6 @@ confusionMatrix(as.factor(se_y_pred), test[,1], positive = "1")
 
 roc(test[,1], se_y_prob$`1`, ci=TRUE)
 
+# listing coefficients for both models
 coef(min_lambda_model$finalModel, min_lambda_model$bestTune$lambda)
 coef(lambda_1se_model$finalModel, lambda_1se_model$bestTune$lambda)
